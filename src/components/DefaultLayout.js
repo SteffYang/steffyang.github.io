@@ -32,7 +32,7 @@ const backgroundSmallDotItemStyles = {
 export default function Layout({ children }) {
   return (
     <div className="container mx-auto">
-      <div className="hidden md:fixed -inset-y-0 right-0 overflow-hidden" style={backgroundDotStyles}>
+      <div className="hidden fixed md:block -inset-y-0 right-0 overflow-hidden" style={backgroundDotStyles}>
         <div className="absolute" style={backgroundDotItemStyles}></div>
       </div>
       <div className="fixed md:hidden -inset-y-0 right-0 overflow-hidden" style={backgroundSmallDotStyles}>
