@@ -14,13 +14,13 @@ const AboutPage = () => {
   return (
     <Layout>
       <title>About | Steff Yang</title>
-      <div className="p-20">
+      <div className="md:p-20">
         <div className="grid grid-cols-1 md:grid-cols-5 gap-10">
           <div class="md:col-span-2">
             <img src={Headshot} alt="Steff" />
           </div>
           <div className="md:col-span-3 flex flex-col space-y-20">
-            <div class="pt-20">
+            <div class="md:pt-20">
               <p class="text-lg leading-relaxed md:text-xl md:leading-relaxed font-light">
                 Passionate about designing for data democratization and positive behavioral change, I've been solving problems in the marketing technology domain over the past few years: empowering users to make data-driven marketing decisions and ultimately drive tangible business results.
               </p>
@@ -42,7 +42,7 @@ const AboutPage = () => {
                 <div class="md:col-span-3">
                   <p class="md:text-lg">
                     UNH3O Inc.
-                    <span class="text-gray-400 md:px-4">Taipei, Taiwan</span>
+                    <span class="text-gray-400 px-4">Taipei, Taiwan</span>
                   </p>
                   <p class="md:text-lg text-pink-500">Chief Product Officer / Product Designer</p>
                 </div>

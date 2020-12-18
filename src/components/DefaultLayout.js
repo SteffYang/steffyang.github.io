@@ -8,6 +8,11 @@ const backgroundDotStyles = {
   "width": "73.4375rem",
 }
 
+const backgroundSmallDotStyles = {
+  "z-index": "-1",
+  "width": "30rem",
+}
+
 const backgroundDotItemStyles = {
   "bottom": "-21.7rem",
   "right": "-29.325rem",
@@ -16,14 +21,25 @@ const backgroundDotItemStyles = {
   "background": "radial-gradient(50% 50% at 50% 50%,#F9A8D4 0,hsla(0,0%,100%,0) 100%)"
 }
 
+const backgroundSmallDotItemStyles = {
+  "bottom": "-5rem",
+  "right": "-15rem",
+  "width": "30rem",
+  "height": "30rem",
+  "background": "radial-gradient(50% 50% at 50% 50%,#F9A8D4 0,hsla(0,0%,100%,0) 100%)"
+}
+
 export default function Layout({ children }) {
   return (
     <div className="container mx-auto">
-      <div className="fixed -inset-y-0 right-0 overflow-hidden" style={backgroundDotStyles}>
+      <div className="hidden md:fixed -inset-y-0 right-0 overflow-hidden" style={backgroundDotStyles}>
         <div className="absolute" style={backgroundDotItemStyles}></div>
       </div>
+      <div className="fixed md:hidden -inset-y-0 right-0 overflow-hidden" style={backgroundSmallDotStyles}>
+        <div className="absolute" style={backgroundSmallDotItemStyles}></div>
+      </div>
       <header className="w-full fixed top-0">
-        <div className="container flex flex-row justify-between items-center py-10">
+        <div className="container flex flex-row justify-between items-center p-10">
           <div>
             <Link to="/" className="capitalize text-xl">steff yang</Link>
           </div>
@@ -32,11 +48,11 @@ export default function Layout({ children }) {
           </div>
         </div>
       </header>
-      <div className="py-40">
+      <div className="px-10 py-20 md:py-40">
         {children}
       </div>
       <footer className="w-full">
-        <div className="container flex flex-row justify-between items-center py-10">
+        <div className="container flex flex-row justify-between items-center p-10">
           <div>
             <p className="text-md uppercase">©2020 steff yang | fun and mental are fundamental.</p>
           </div>

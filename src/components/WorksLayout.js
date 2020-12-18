@@ -23,7 +23,7 @@ export default function Layout({ children }) {
         <div className="absolute" style={backgroundDotItemStyles}></div>
       </div> */}
       <header className="w-full fixed top-0">
-        <div className="container flex flex-row justify-between items-center py-10">
+        <div className="container flex flex-row justify-between items-center p-10">
           <div>
           <Link className="tracking-wide text-gray-700 border-b-0 hover:border-b-2 hover:border-pink-600 active:border-b-2 active:border-pink-600 px-0 py-1 font-medium uppercase" to="/">back</Link>
           </div>
@@ -32,11 +32,11 @@ export default function Layout({ children }) {
           </div>
         </div>
       </header>
-      <div className="py-40">
+      <div className="px-10 py-20 md:py-40">
         {children}
       </div>
       <footer className="w-full">
-        <div className="container flex flex-row justify-between items-center py-10">
+        <div className="container flex flex-row justify-between items-center p-10">
           <div>
             <p className="text-md uppercase">©2020 steff yang | fun and mental are fundamental.</p>
           </div>

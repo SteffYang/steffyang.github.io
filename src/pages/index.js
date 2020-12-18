@@ -16,7 +16,7 @@ const IndexPage = () => {
           <p className="text-3xl leading-normal lg:text-5xl lg:leading-normal font-serif font-light">I'm Steff, an avid problem-solver who employs design to create meaningful impacts.</p>
         </div>
       </div>
-      <div className="grid grid-cols-2 lg:grid-cols-4">
+      <div className="grid grid-cols-1 lg:grid-cols-4 gap-10">
         <div>
           <p className="text-xl uppercase text-pink-400">currently in</p>
           <p className="text-xl uppercase">singapore</p>

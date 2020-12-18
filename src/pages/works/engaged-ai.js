@@ -16,7 +16,7 @@ const EngagedAIPage = () => {
             <p class="text-2xl leading-snug lg:text-4xl lg:leading-snug font-serif font-light">Engaged.AI is the dominant Instagram analytics platform in Taiwan, <span class="text-pink-600">empowering businesses to make data-informed decisions and drive revenue through social.</span></p>
           </div>
         </div>
-        <div className="grid grid-cols-1 md:grid-cols-4 gap-10 mt-40">
+        <div className="grid grid-cols-1 md:grid-cols-4 gap-10 mt-10 md:mt-40">
           <div className="md:col-span-3">
             <img src={EngagedAICover} alt="Engaged.AI Product Interface" />
           </div>
@@ -36,7 +36,7 @@ const EngagedAIPage = () => {
           </div>
           <div class="md:col-span-3 py-10">
             <p class="text-md uppercase text-pink-400 mb-4">problem</p>
-            <p class="leading-normal font-light text-3xl font-serif">
+            <p class="text-2xl leading-normal font-light md:text-3xl font-serif">
                 Alongside the prevalence of local businesses leveraging Instagram to promote their brands, we saw an increasing need for an Instagram analytics solution that could enable these business owners to make data-informed decisions and drive lucrative results through social.
             </p>
           </div>
