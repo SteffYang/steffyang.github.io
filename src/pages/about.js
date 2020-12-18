@@ -24,10 +24,10 @@ const AboutPage = () => {
               <p class="text-lg leading-relaxed md:text-xl md:leading-relaxed font-light">
                 Passionate about designing for data democratization and positive behavioral change, I've been solving problems in the marketing technology domain over the past few years: empowering users to make data-driven marketing decisions and ultimately drive tangible business results.
               </p>
-              <p className="text-lg leading-relaxed md:text-xl md:leading-relaxed font-light">
+              <p className="text-lg leading-relaxed md:text-xl md:leading-relaxed font-light mt-10">
                 Curious by nature, I enjoy connecting, understanding, and collaborating with people. I get jazzed when working in multidisciplinary teams to find a balance between desirability, viability, and feasibility.
               </p>
-              <p className="text-lg leading-relaxed md:text-xl md:leading-relaxed font-light">
+              <p className="text-lg leading-relaxed md:text-xl md:leading-relaxed font-light mt-10">
                 I lose track of time when I'm playing Civilization V (a 4X game), experimenting with film cameras (you can see some of my works below), throwing ceramics, or maybe reading something interesting (could be a Wikipedia page or a good book.)
               </p>
               <p class="text-lg leading-relaxed md:text-xl md:leading-relaxed font-light mt-10">
