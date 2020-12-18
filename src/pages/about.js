@@ -31,7 +31,7 @@ const AboutPage = () => {
                 I lose track of time when I'm playing Civilization V (a 4X game), experimenting with film cameras (you can see some of my works below), throwing ceramics, or maybe reading something interesting (could be a Wikipedia page or a good book.)
               </p>
               <p class="text-lg leading-relaxed md:text-xl md:leading-relaxed font-light mt-10">
-                I'm currently venturing into the uncharted territories – healthcare and personal finance – and exploring innovative and impactful solutions in these fields.
+                I'm currently venturing into the uncharted territories – healthcare and personal finance – and exploring innovative and impactful solutions in these fields. I'm always open to fun side-projects. Please don't hesitate to reach out and have a chat with me!
               </p>
             </div>
             <div className="">
