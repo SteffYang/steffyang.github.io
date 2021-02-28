@@ -36,7 +36,7 @@ const EngagedAIPage = () => {
           </div>
           <div class="md:col-span-3 py-10">
             <p class="text-md uppercase text-pink-400 mb-4">problem</p>
-            <p class="text-2xl leading-normal font-light md:text-3xl font-serif">
+            <p class="leading-normal md:leading-normal text-2xl font-light md:text-3xl font-serif">
                 Alongside the prevalence of local businesses leveraging Instagram to promote their brands, we saw an increasing need for an Instagram analytics solution that could enable these business owners to make data-informed decisions and drive lucrative results through social.
             </p>
           </div>
@@ -64,7 +64,7 @@ const EngagedAIPage = () => {
             </p>
           </div>
         </div>
-        <div class="text-center bg-pink-50 p-5 md:pt-20 md:pb-40 md:px-40">
+        <div class="text-center bg-pink-50 p-5 md:pt-20 md:pb-40 md:px-40 md:mt-40">
           <p class="text-4xl leading-snug font-serif font-light ">Grow Your Business with Data, <span class="text-pink-600">Effortlessly</span></p>
           <p class="font-light text-lg leading-relaxed mt-8">
               We had a single message to drive home: Engaged.AI makes growing your business with data effortless. Our vision for Engaged.AI anchored critical design decisions throughout the entire product lifecycle and molded the product into the data empowerment that drives significant and tangible impacts across businesses regardless of size.

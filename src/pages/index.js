@@ -2,6 +2,7 @@ import * as React from "react"
 import Layout from "../components/Defaultlayout"
 import { Link } from "gatsby"
 import EngagedAICover from "../assets/engaged-ai-cover.png"
+import LinkByCover from "../assets/linkby-cover.png"
 
 // styles
 
@@ -41,6 +42,18 @@ const IndexPage = () => {
             Empowering businesses to make data-informed decisions and drive revenue through social.
           </p>
         </div>
+      </div>
+      <div className="grid grid-cols-1 md:grid-cols-3 py-20 gap-10">
+        <div>
+          <p class="text-pink-700 font-bold text-3xl leading-normal">LinkBy</p>
+          <p class="mt-2 text-pink-600 uppercase font-light">2020-2020 @ UNH3O Inc.</p>
+          <p class="mt-2 font-light">
+            Leading the vision of transactional experiences on social.
+          </p>
+        </div>
+        <Link className="md:col-span-2" to="/works/linkby/">
+          <img src={LinkByCover} alt="LinkBy Product Interface" />
+        </Link>
       </div>
     </Layout>
   )
